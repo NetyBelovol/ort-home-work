@@ -3,3 +3,9 @@
 img {
     width: 150px;
 }
+
+.up > .card {
+    width: calc( (100% - 2 * 10px) / 3);
+}
+
+
