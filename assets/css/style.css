@@ -4,8 +4,12 @@ img {
     width: 150px;
 }
 
-.up > .card {
-    width: calc( (100% - 2 * 10px) / 3);
+.container {
+    display: grid;
+    grid-template-columns: 300px 600px;
 }
 
-
+.block-2 {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
