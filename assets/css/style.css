@@ -4,12 +4,14 @@ img {
     width: 150px;
 }
 
-.container {
+main {
     display: grid;
+    gap: 10px;
     grid-template-columns: 300px 600px;
 }
 
 .block-2 {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    gap: 10px;
+    grid-template-columns: 50px 50px 50px;
 }
